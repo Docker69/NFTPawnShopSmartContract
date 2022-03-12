@@ -6,8 +6,9 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/auth"
+
 	"github.com/gin-gonic/gin"
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/auth"
 )
 
 const (

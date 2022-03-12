@@ -1,13 +1,14 @@
 package server
 
 import (
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/auth"
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/config"
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/controller"
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/model"
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/service"
+
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/auth"
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/config"
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/controller"
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/model"
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/service"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

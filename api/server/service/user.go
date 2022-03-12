@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/model"
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/model"
 )
 
 type User struct {

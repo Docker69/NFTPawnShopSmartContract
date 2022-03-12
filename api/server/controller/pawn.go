@@ -4,9 +4,10 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/model"
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/service"
+
 	"github.com/gin-gonic/gin"
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/model"
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/service"
 )
 
 type PawnController struct {

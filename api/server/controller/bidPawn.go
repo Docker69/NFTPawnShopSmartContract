@@ -1,9 +1,10 @@
 package controller
 
 import (
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/model"
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/service"
+
 	"github.com/gin-gonic/gin"
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/model"
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/service"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

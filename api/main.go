@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/uss-kelvin/NFTPawningShopBackend/server"
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/config"
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server"
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/config"
 )
 
 func main() {

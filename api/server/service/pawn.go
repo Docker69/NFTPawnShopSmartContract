@@ -1,7 +1,8 @@
 package service
 
 import (
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/model"
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/model"
+
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

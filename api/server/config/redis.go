@@ -6,8 +6,9 @@ import (
 	"log"
 	"time"
 
+	"github.com/Docker69/NFTPawnShopSmartContract/api/server/model"
+
 	"github.com/go-redis/redis/v8"
-	"github.com/uss-kelvin/NFTPawningShopBackend/server/model"
 )
 
 type RedisClient struct {
